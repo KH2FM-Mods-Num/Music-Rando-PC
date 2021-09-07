@@ -3,7 +3,7 @@ A mod for the OpenKH Mod Manager that randomizes the KH2 Music along with any ot
 
 ## How to use:
 * Navigate to the extracted KH2PC folder
-* Copy the bgm and vagstream folders
+* Copy the `bgm` and `vagstream` folders
 * Install the mod using OpenKH Mod Manager
 * Navigate to the OpenKH `Mods` folder
 * Paste the folders copied earlier
