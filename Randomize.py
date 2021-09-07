@@ -10,7 +10,7 @@ for folder in ['bgm','vagstream']:
     files = os.listdir(currentDir+folder)
     for file in files:
         if file[-4:] == '.scd':
-            musiclist.append('bgm\\'+file)
+            musiclist.append(folder+'\\'+file)
 
 #Get new music filenames
 randomlist = musiclist.copy()
