@@ -1,8 +1,6 @@
 import os
 import random
 
-
-
 #Get KH2 music filenames
 currentDir = os.path.realpath(__file__).replace(os.path.basename(__file__),'')
 musiclist = []
