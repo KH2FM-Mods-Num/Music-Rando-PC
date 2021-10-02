@@ -1,0 +1,559 @@
+{
+	"KH2": [
+		{
+			"filename": "bgm\\music050.win32.scd",
+			"type": "field",
+			"title": "Dive into the Heart -Destati-"
+		},
+		{
+			"filename": "bgm\\music051.win32.scd",
+			"type": "battle",
+			"title": "Fragments of Sorrow"
+		},
+		{
+			"filename": "bgm\\music052.win32.scd",
+			"type": "field",
+			"title": "The Afternoon Streets"
+		},
+		{
+			"filename": "bgm\\music053.win32.scd",
+			"type": "battle",
+			"title": "Working Together"
+		},
+		{
+			"filename": "bgm\\music054.win32.scd",
+			"type": "field",
+			"title": "Sacred Moon"
+		},
+		{
+			"filename": "bgm\\music055.win32.scd",
+			"type": "battle",
+			"title": "Deep Drive"
+		},
+		{
+			"filename": "bgm\\music059.win32.scd",
+			"type": "battle",
+			"title": "A Fight to the Death"
+		},
+		{
+			"filename": "bgm\\music060.win32.scd",
+			"type": "battle",
+			"title": "Darkness of the Unknown I"
+		},
+		{
+			"filename": "bgm\\music061.win32.scd",
+			"type": "battle",
+			"title": "Darkness of the Unknown II"
+		},
+		{
+			"filename": "bgm\\music062.win32.scd",
+			"type": "battle",
+			"title": "Darkness of the Unknown III"
+		},
+		{
+			"filename": "bgm\\music063.win32.scd",
+			"type": "battle",
+			"title": "The 13th Reflection"
+		},
+		{
+			"filename": "bgm\\music064.win32.scd",
+			"type": "field",
+			"title": "What a Surprise?!"
+		},
+		{
+			"filename": "bgm\\music065.win32.scd",
+			"type": "battle",
+			"title": "Happy Holidays!"
+		},
+		{
+			"filename": "bgm\\music066.win32.scd",
+			"type": "battle",
+			"title": "The Other Promise"
+		},
+		{
+			"filename": "bgm\\music067.win32.scd",
+			"type": "battle",
+			"title": "Rage Awakened"
+		},
+		{
+			"filename": "bgm\\music068.win32.scd",
+			"type": "field",
+			"title": "Cavern of Remembrance"
+		},
+		{
+			"filename": "bgm\\music069.win32.scd",
+			"type": "battle",
+			"title": "Deep Anxiety"
+		},
+		{
+			"filename": "bgm\\music081.win32.scd",
+			"type": "battle",
+			"title": "Beneath the Ground"
+		},
+		{
+			"filename": "bgm\\music082.win32.scd",
+			"type": "field",
+			"title": "The Escapade"
+		},
+		{
+			"filename": "bgm\\music084.win32.scd",
+			"type": "battle",
+			"title": "Arabian Daydream"
+		},
+		{
+			"filename": "bgm\\music085.win32.scd",
+			"type": "battle",
+			"title": "Byte Striking"
+		},
+		{
+			"filename": "bgm\\music086.win32.scd",
+			"type": "battle",
+			"title": "Spooks of Halloween Town"
+		},
+		{
+			"filename": "bgm\\music087.win32.scd",
+			"type": "battle",
+			"title": "Disappeared"
+		},
+		{
+			"filename": "bgm\\music088.win32.scd",
+			"type": "cutscene",
+			"title": "Sora"
+		},
+		{
+			"filename": "bgm\\music089.win32.scd",
+			"type": "cutscene",
+			"title": "Friends in My Heart"
+		},
+		{
+			"filename": "bgm\\music090.win32.scd",
+			"type": "cutscene",
+			"title": "Riku"
+		},
+		{
+			"filename": "bgm\\music091.win32.scd",
+			"type": "cutscene",
+			"title": "Kairi"
+		},
+		{
+			"filename": "bgm\\music092.win32.scd",
+			"type": "cutscene",
+			"title": "A Walk in Andante"
+		},
+		{
+			"filename": "bgm\\music093.win32.scd",
+			"type": "cutscene",
+			"title": "Villains of a Sort"
+		},
+		{
+			"filename": "bgm\\music094.win32.scd",
+			"type": "cutscene",
+			"title": "Organization XIII"
+		},
+		{
+			"filename": "bgm\\music095.win32.scd",
+			"type": "cutscene",
+			"title": "Apprehension"
+		},
+		{
+			"filename": "bgm\\music096.win32.scd",
+			"type": "cutscene",
+			"title": "Courage"
+		},
+		{
+			"filename": "bgm\\music097.win32.scd",
+			"type": "cutscene",
+			"title": "Laughter and Merriment"
+		},
+		{
+			"filename": "bgm\\music098.win32.scd",
+			"type": "cutscene",
+			"title": "Hesitation"
+		},
+		{
+			"filename": "bgm\\music099.win32.scd",
+			"type": "cutscene",
+			"title": "Missing You"
+		},
+		{
+			"filename": "bgm\\music100.win32.scd",
+			"type": "field",
+			"title": "The Underworld"
+		},
+		{
+			"filename": "bgm\\music101.win32.scd",
+			"type": "field",
+			"title": "Waltz of the Damned"
+		},
+		{
+			"filename": "bgm\\music102.win32.scd",
+			"type": "battle",
+			"title": "What Lies Beneath"
+		},
+		{
+			"filename": "bgm\\music103.win32.scd",
+			"type": "field",
+			"title": "Olympus Coliseum"
+		},
+		{
+			"filename": "bgm\\music104.win32.scd",
+			"type": "battle",
+			"title": "Dance of the Daring"
+		},
+		{
+			"filename": "bgm\\music106.win32.scd",
+			"type": "field",
+			"title": "Under the Sea (Japanese)"
+		},
+		{
+			"filename": "bgm\\music107.win32.scd",
+			"type": "battle",
+			"title": "Ursula's Revenge (Japanese)"
+		},
+		{
+			"filename": "bgm\\music108.win32.scd",
+			"type": "field",
+			"title": "Part of Your World (Japanese)"
+		},
+		{
+			"filename": "bgm\\music109.win32.scd",
+			"type": "field",
+			"title": "A New Day is Dawning (Japanese)"
+		},
+		{
+			"filename": "bgm\\music110.win32.scd",
+			"type": "battle",
+			"title": "The Encounter"
+		},
+		{
+			"filename": "bgm\\music111.win32.scd",
+			"type": "battle",
+			"title": "Sinister Shadows"
+		},
+		{
+			"filename": "bgm\\music112.win32.scd",
+			"type": "battle",
+			"title": "Fields of HOnor"
+		},
+		{
+			"filename": "bgm\\music113.win32.scd",
+			"type": "field",
+			"title": "Swim This Way (Japanese)"
+		},
+		{
+			"filename": "bgm\\music114.win32.scd",
+			"type": "battle",
+			"title": "Tension Rising"
+		},
+		{
+			"filename": "bgm\\music115.win32.scd",
+			"type": "battle",
+			"title": "The Corrupted"
+		},
+		{
+			"filename": "bgm\\music116.win32.scd",
+			"type": "field",
+			"title": "The Home of Dragons"
+		},
+		{
+			"filename": "bgm\\music117.win32.scd",
+			"type": "battle",
+			"title": "Rowdy Rumble"
+		},
+		{
+			"filename": "bgm\\music118.win32.scd",
+			"type": "field",
+			"title": "Lazy Afternoons"
+		},
+		{
+			"filename": "bgm\\music119.win32.scd",
+			"type": "battle",
+			"title": "Sinister Sundowns"
+		},
+		{
+			"filename": "bgm\\music120.win32.scd",
+			"type": "battle",
+			"title": "Beneath the Ground"
+		},
+		{
+			"filename": "bgm\\music121.win32.scd",
+			"type": "battle",
+			"title": "Desire for All That is Lost"
+		},
+		{
+			"filename": "bgm\\music122.win32.scd",
+			"type": "field",
+			"title": "Let's Sing and Dance! I"
+		},
+		{
+			"filename": "bgm\\music123.win32.scd",
+			"type": "field",
+			"title": "Let's Sing and Dance! II"
+		},
+		{
+			"filename": "bgm\\music127.win32.scd",
+			"type": "field",
+			"title": "A Day in Agrabah"
+		},
+		{
+			"filename": "bgm\\music128.win32.scd",
+			"type": "battle",
+			"title": "Arabian Dream"
+		},
+		{
+			"filename": "bgm\\music129.win32.scd",
+			"type": "field",
+			"title": "Isn't It Lovely"
+		},
+		{
+			"filename": "bgm\\music130.win32.scd",
+			"type": "field",
+			"title": "Neverland Sky (KH I)"
+		},
+		{
+			"filename": "bgm\\music131.win32.scd",
+			"type": "battle",
+			"title": "Dance to the Death"
+		},
+		{
+			"filename": "bgm\\music133.win32.scd",
+			"type": "field",
+			"title": "Magical Mystery"
+		},
+		{
+			"filename": "bgm\\music134.win32.scd",
+			"type": "battle",
+			"title": "Working Together"
+		},
+		{
+			"filename": "bgm\\music135.win32.scd",
+			"type": "field",
+			"title": "Space Paranoids"
+		},
+		{
+			"filename": "bgm\\music136.win32.scd",
+			"type": "battle",
+			"title": "Byte Bashing"
+		},
+		{
+			"filename": "bgm\\music137.win32.scd",
+			"type": "field",
+			"title": "A Twinkle in the Sky"
+		},
+		{
+			"filename": "bgm\\music138.win32.scd",
+			"type": "battle",
+			"title": "Shipmeister's Shanty"
+		},
+		{
+			"filename": "bgm\\music139.win32.scd",
+			"type": "field",
+			"title": "Gearing Up"
+		},
+		{
+			"filename": "bgm\\music140.win32.scd",
+			"type": "field",
+			"title": "Under the Sea (KH I)"
+		},
+		{
+			"filename": "bgm\\music141.win32.scd",
+			"type": "field",
+			"title": "Winnie the Pooh"
+		},
+		{
+			"filename": "bgm\\music142.win32.scd",
+			"type": "field",
+			"title": "Crossing the Finish Line"
+		},
+		{
+			"filename": "bgm\\music143.win32.scd",
+			"type": "field",
+			"title": "Mickey Mouse Club March"
+		},
+		{
+			"filename": "bgm\\music144.win32.scd",
+			"type": "field",
+			"title": "This is Halloween"
+		},
+		{
+			"filename": "bgm\\music145.win32.scd",
+			"type": "battle",
+			"title": "Vim and Vigor"
+		},
+		{
+			"filename": "bgm\\music146.win32.scd",
+			"type": "cutscene",
+			"title": "Roxas"
+		},
+		{
+			"filename": "bgm\\music147.win32.scd",
+			"type": "battle",
+			"title": "An Adventure in Atlantica (KH I)"
+		},
+		{
+			"filename": "bgm\\music148.win32.scd",
+			"type": "field",
+			"title": "Blast Off!"
+		},
+		{
+			"filename": "bgm\\music149.win32.scd",
+			"type": "battle",
+			"title": "Spooks of Halloween Town"
+		},
+		{
+			"filename": "bgm\\music150.win32.scd",
+			"type": "battle",
+			"title": "Squirming Evil (KH I)"
+		},
+		{
+			"filename": "bgm\\music151.win32.scd",
+			"type": "battle",
+			"title": "The 13th Struggle"
+		},
+		{
+			"filename": "bgm\\music152.win32.scd",
+			"type": "field",
+			"title": "Reviving Hollow Bastion"
+		},
+		{
+			"filename": "bgm\\music153.win32.scd",
+			"type": "battle",
+			"title": "Scherzo Di Notte"
+		},
+		{
+			"filename": "bgm\\music154.win32.scd",
+			"type": "field",
+			"title": "Nights of the Cursed"
+		},
+		{
+			"filename": "bgm\\music155.win32.scd",
+			"type": "battle",
+			"title": "He's a Pirate (No Intro)"
+		},
+		{
+			"filename": "bgm\\music156.win32.scd",
+			"type": "battle",
+			"title": "Guardando nel buio"
+		},
+		{
+			"filename": "bgm\\music158.win32.scd",
+			"type": "field",
+			"title": "Bounce-O-Rama"
+		},
+		{
+			"filename": "bgm\\music159.win32.scd",
+			"type": "battle",
+			"title": "Bounce-O-Rama (Speed Up Ver.)"
+		},
+		{
+			"filename": "bgm\\music164.win32.scd",
+			"type": "battle",
+			"title": "Road to a Hero"
+		},
+		{
+			"filename": "bgm\\music185.win32.scd",
+			"type": "battle",
+			"title": "The 13th Dilemma"
+		},
+		{
+			"filename": "bgm\\music186.win32.scd",
+			"type": "field",
+			"title": "Adventures in the Savannah"
+		},
+		{
+			"filename": "bgm\\music187.win32.scd",
+			"type": "battle",
+			"title": "Savannah Pride"
+		},
+		{
+			"filename": "bgm\\music188.win32.scd",
+			"type": "battle",
+			"title": "One-Winged Angel"
+		},
+		{
+			"filename": "bgm\\music189.win32.scd",
+			"type": "field",
+			"title": "Monochrome Dreams"
+		},
+		{
+			"filename": "bgm\\music190.win32.scd",
+			"type": "battle",
+			"title": "Old Friends, Old Rivals"
+		},
+		{
+			"filename": "bgm\\music506.win32.scd",
+			"type": "field",
+			"title": "Under the Sea (English)"
+		},
+		{
+			"filename": "bgm\\music507.win32.scd",
+			"type": "battle",
+			"title": "Ursula's Revenge (English)"
+		},
+		{
+			"filename": "bgm\\music508.win32.scd",
+			"type": "field",
+			"title": "Part of Your World (English)"
+		},
+		{
+			"filename": "bgm\\music509.win32.scd",
+			"type": "field",
+			"title": "A New Day is Dawning (English)"
+		},
+		{
+			"filename": "bgm\\music513.win32.scd",
+			"type": "field",
+			"title": "Swim This Way (English)"
+		},
+		{
+			"filename": "bgm\\music517.win32.scd",
+			"type": "battle",
+			"title": "Rowdy Rumble (Timeless River)"
+		},
+		{
+			"filename": "bgm\\music521.win32.scd",
+			"type": "battle",
+			"title": "Desire for All That is Lost (Timeless River)"
+		},
+		{
+			"filename": "bgm\\music530.win32.scd",
+			"type": "battle",
+			"title": "He's a Pirate"
+		},
+		{
+			"filename": "vagstream\\End_Piano.win32.scd",
+			"type": "cutscene",
+			"title": "Dearly Beloved -Reprise-"
+		},
+		{
+			"filename": "vagstream\\GM1_Asteroid.win32.scd",
+			"type": "battle",
+			"title": "Asteroid Attack"
+		},
+		{
+			"filename": "vagstream\\GM2_Highway.win32.scd",
+			"type": "battle",
+			"title": "Hazardous Highway"
+		},
+		{
+			"filename": "vagstream\\GM3_Cloud.win32.scd",
+			"type": "battle",
+			"title": "Cloudchasers"
+		},
+		{
+			"filename": "vagstream\\GM4_Floating.win32.scd",
+			"type": "battle",
+			"title": "Floating in Bliss"
+		},
+		{
+			"filename": "vagstream\\GM5_Senkan.win32.scd",
+			"type": "battle",
+			"title": "Battleship Bravery"
+		},
+		{
+			"filename": "vagstream\\Title.win32.scd",
+			"type": "cutscene",
+			"title": "Dearly Beloved"
+		}
+	]
+}
