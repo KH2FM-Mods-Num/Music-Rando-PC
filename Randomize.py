@@ -40,9 +40,10 @@ else:
 def getmusic(category):
     if len(category) > 0:
         old = music['filename']
+        ttl = music['title']
         chosenindex = random.randint(0,len(category)-1)
         new = category.pop(chosenindex)
-        f.write('- name: '+old+'\n  method: copy\n  source:\n  - name: '+new+'\n')
+        f.write('- name: '+old+' #'+ttl+'\n  method: copy\n  source:\n  - name: '+new+'\n')
         global index
         index += 1
 
