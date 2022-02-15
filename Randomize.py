@@ -1,9 +1,10 @@
+import sys
 import os
 import json
 import random
 
 #Get KH2 music filenames
-currentDir = os.path.realpath(__file__).replace(os.path.basename(__file__),'')
+currentDir = sys.argv[0].replace(os.path.basename(__file__),'')
 f = open(currentDir+'musiclist.json','r')
 musiclist = json.load(f)['KH2']
 f.close()
