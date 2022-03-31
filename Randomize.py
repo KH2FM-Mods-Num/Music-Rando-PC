@@ -6,8 +6,10 @@ import random
 #Get KH2 music filenames
 currentDir = sys.argv[0].replace((sys.argv[0].split('\\')[-1]),'')
 f = open(currentDir+'musiclist.json','r')
-musiclist = json.load(f)['KH2']
+oldmusiclist = json.load(f)['KH2']
+newmusiclist = {}
 f.close()
+
 
 #Get new music filenames
 dirstart = len(currentDir)
@@ -18,57 +20,43 @@ def getmusic(category):
             if file[-4:] == '.scd':
                 musicfiles.append(root[dirstart:]+'\\'+file)
     return musicfiles
-wild  = getmusic('wild')
-field = getmusic('field')
-fight = getmusic('battle')
-cut   = getmusic('cutscene')
 
-#Safeguard if there's too few music tracks
-skip = [False, False, False] #Field, Fight, Cut
-if len(wild) == 0:
-    for i in range(3):
-        folder = [field,fight,cut][i]
-        if len(folder) == 0:
-            skip[i] = True
-        else:
-            while len(folder) < len(musiclist):
-                folder += folder
-else:
-    while len(wild) < len(musiclist):
-        wild += wild
+wildmusiclist = getmusic('wild')
+for music in oldmusiclist: #Separate based on type
+    musictype = music['type']
+    if not musictype in newmusiclist and musictype.lower() != 'wild':
+        newmusiclist[musictype] = getmusic(musictype)
+wildmusicpool = wildmusiclist.copy()
 
 #Randomize the music
 def getmusic(category):
     if len(category) > 0:
         old = music['filename']
-        ttl = music['title']
-        chosenindex = random.randint(0,len(category)-1)
+        title = music['title']
+        chosenindex = random.randint(0, len(category)-1)
         new = category.pop(chosenindex)
-        f.write('- name: '+old+' #'+ttl+'\n  method: copy\n  source:\n  - name: '+new+'\n')
+        f.write('- name: '+old+' #'+title+
+                '\n  method: copy\n  source:\n  - name: '+new+'\n')
         global index
         index += 1
-
+        
 #Write the mod.yml
 f = open(currentDir+'mod.yml','w',encoding='utf-8')
 f.write('assets:\n')
 index = 0
-while index < len(musiclist):
+while index < len(oldmusiclist):
+    music  = oldmusiclist[index]
+    newmusicpool = newmusiclist[music['type']]
+    #Skip if no available music
+    if len(wildmusiclist) + len(newmusicpool) == 0:
+        index += 1
+        continue
+    #1/3 chance for wild
     folder = random.randint(0,2)
-    music  = musiclist[index]
-    if folder == 0: #Wild
-        getmusic(wild)
-    else: #Categorical
-        if music['type'] == 'field':
-            if skip[0]:
-                index += 1
-            getmusic(field)
-        elif music['type'] == 'battle':
-            if skip[1]:
-                index += 1
-            getmusic(fight)
-        elif music['type'] == 'cutscene':
-            if skip[2]:
-                index += 1
-            getmusic(cut)
-
+    if folder == 0:
+        getmusic(wildmusicpool)
+        if len(wildmusicpool) == 0: #Reset if all tracks are used
+            wildmusicpool = wildmusiclist.copy()
+    else:
+        getmusic(newmusicpool)
 f.close()

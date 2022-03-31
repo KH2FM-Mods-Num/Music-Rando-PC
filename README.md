@@ -4,18 +4,21 @@ A mod for the OpenKH Mod Manager that randomizes the KH2 Music along with any ot
 ## How to use:
 1. Install the mod using OpenKH Mod Manager
 2. Navigate to your OpenKH, folder, then go to `Mods/KH2FM-Mods-Num/Music-Rando-PC`
-3. (Optional) Open `musiclist.json` and delete the entry of any track you want to keep vanilla.
-4. Make 4 folders named `Field`, `Battle`, `Cutscene`, and `Wild`.
-5. Put the music files into any of the above folders:
+3. Put the music files into any of the folders below:
   - Field   : Replaces exploration themes and some minigame tracks
   - Battle  : Replaces battle themes, forced fight tracks, and some minigame tracks
   - Cutscene: Replaces cutscene tracks and Dearly Beloved
   - Wild    : Replaces any of the above
-6. When in doubt, choose `Wild`. For information on how the zip seed generator classifies the tracks, see [here](https://github.com/tommadness/KH2Randomizer/blob/master/Module/randomBGM.py)
-7. Feel free to have subfolders within that folder or to rename the music files, but only the files that end in `.scd` will be considered
-8. Run `Randomize.exe`
-9. Follow the steps as if you just installed a zip seed to apply it to your PC
-10. Your music is now randomized!
+4. When in doubt, choose `Wild`. For information on how the zip seed generator classifies the tracks, see [here](https://github.com/tommadness/KH2Randomizer/blob/master/Module/randomBGM.py)
+5. Feel free to have subfolders within that folder or to rename the music files, but only the files that end in `.scd` will be considered
+6. Run `Randomize.exe`. The program will immediately close and the content of your `mod.yml` will be changed.
+7. Apply the mod using OpenKH Mod Manager.
+8. Your music is now randomized!
+
+## Advanced Usage:
+You can delete open `musiclist.json` and delete the entry of a track to keep it vanilla.
+
+You can also create more categories by editing the music's type within `musiclist.json`. For example, changing Fields of Honor's type into `lod` will make it use tracks from `lod` or `wild` folders. Names are case-insensitive. Tracks with the `wild` type will only use the music from that folder.
 
 ## Extraction Tips:
 - Older games can have their files extracted from `.pkg` by `OpenKH`, `build_from_mm` or [`KHPCPatchManager`](https://github.com/AntonioDePau/KHPCPatchManager/releases)
