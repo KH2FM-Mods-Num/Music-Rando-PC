@@ -18,7 +18,7 @@ A mod for the OpenKH Mod Manager that randomizes the KH2 Music along with any ot
 ## Advanced Usage:
 You can open `musiclist.json` and delete the entry of a track to keep it vanilla.
 
-You can also create more categories by editing the music's type within `musiclist.json`. For example, changing Fields of Honor's type into `lod` will make it use tracks from `lod` or `wild` folders. Names are case-insensitive. Tracks with the `wild` type will only use the music from that folder.
+You can also create more categories by editing the music's type within `musiclist.json`. For example, changing Fields of Honor's type into `["LoD","Battle","Wild"]` will make it use tracks from `lod`, `battle`, or `wild` folders. Names are case-insensitive.
 
 ## Extraction Tips:
 - Older games can have their files extracted from `.pkg` by `OpenKH`, `build_from_mm` or [`KHPCPatchManager`](https://github.com/AntonioDePau/KHPCPatchManager/releases)
