@@ -51,7 +51,6 @@ def getmusic(category):
     if len(currentpool) == 0: #Refresh if ran out of available music
         newmusicpool[category] = copy.deepcopy(newmusiclist[category])
     return newmusic
-    
 
 #Do the randomization & write the mod.yml
 newmusicpool = copy.deepcopy(newmusiclist)
