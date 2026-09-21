@@ -3,6 +3,13 @@ import yaml
 import os
 import copy
 import random
+import traceback
+
+def crash(exctype, value, tb):
+    traceback.print_exception(exctype, value, tb)
+    sys.stderr.flush()
+    os.system('pause')
+sys.excepthook = crash
 
 #Get KH2 music filenames
 currentDir = sys.argv[0].replace((sys.argv[0].split('\\')[-1]),'')
