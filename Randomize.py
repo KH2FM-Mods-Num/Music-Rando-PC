@@ -76,3 +76,5 @@ for music in data['Base Music List']:
     f.write('  - name: '+newmusic+'\n')
 
 f.close()
+print('Randomization done!', flush = True)
+os.system('pause')
