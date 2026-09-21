@@ -41,6 +41,10 @@ for root, dirs, files in os.walk(replaceDir):
             continue
         newmusiclist[musictype].append(root[truncateDir:]+'\\'+file)
 
+#Check if no music is detected
+if sum(len(files) for files in newmusiclist.values()) == 0:
+    print('No .scd file detected. Resulting mod.yml will not be usable.')
+
 #Randomization Function
 def getmusic(category):
     category = category.lower()
@@ -54,7 +58,6 @@ def getmusic(category):
 
 #Do the randomization & write the mod.yml
 newmusicpool = copy.deepcopy(newmusiclist)
-musicresult = {}
 f = open(currentDir+'mod.yml','w',encoding='utf-8')
 f.write('assets:\n')
 for music in data['Base Music List']:
