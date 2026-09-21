@@ -37,7 +37,7 @@ for root, dirs, files in os.walk(replaceDir):
         continue
     
     for file in files:
-        if file[-4:] != '.scd':
+        if file[-4:].lower() != '.scd':
             continue
         newmusiclist[musictype].append(root[truncateDir:]+'\\'+file)
 
@@ -58,6 +58,7 @@ musicresult = {}
 f = open(currentDir+'mod.yml','w',encoding='utf-8')
 f.write('assets:\n')
 for music in data['Base Music List']:
+    newmusic = False
     types = music['type']
     for i in range(len(types)): #Repick a type on unsuccessful attempts
         chosentype = types.pop(random.randint(0,len(types)-1)) #Pick a type and remove it from the pool
