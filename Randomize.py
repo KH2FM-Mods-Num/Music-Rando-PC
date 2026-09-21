@@ -3,6 +3,13 @@ import yaml
 import os
 import copy
 import random
+import traceback
+
+def crash(exctype, value, tb):
+    traceback.print_exception(exctype, value, tb)
+    sys.stderr.flush()
+    os.system('pause')
+sys.excepthook = crash
 
 #Get KH2 music filenames
 currentDir = sys.argv[0].replace((sys.argv[0].split('\\')[-1]),'')
@@ -37,9 +44,13 @@ for root, dirs, files in os.walk(replaceDir):
         continue
     
     for file in files:
-        if file[-4:] != '.scd':
+        if file[-4:].lower() != '.scd':
             continue
         newmusiclist[musictype].append(root[truncateDir:]+'\\'+file)
+
+#Check if no music is detected
+if sum(len(files) for files in newmusiclist.values()) == 0:
+    print('No .scd file detected. Resulting mod.yml will not be usable.')
 
 #Randomization Function
 def getmusic(category):
@@ -54,10 +65,10 @@ def getmusic(category):
 
 #Do the randomization & write the mod.yml
 newmusicpool = copy.deepcopy(newmusiclist)
-musicresult = {}
 f = open(currentDir+'mod.yml','w',encoding='utf-8')
 f.write('assets:\n')
 for music in data['Base Music List']:
+    newmusic = False
     types = music['type']
     for i in range(len(types)): #Repick a type on unsuccessful attempts
         chosentype = types.pop(random.randint(0,len(types)-1)) #Pick a type and remove it from the pool
@@ -75,3 +86,5 @@ for music in data['Base Music List']:
     f.write('  - name: '+newmusic+'\n')
 
 f.close()
+print('Randomization done!', flush = True)
+os.system('pause')
