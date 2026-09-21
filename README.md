@@ -9,7 +9,7 @@ A mod for the OpenKH Mod Manager that randomizes the KH2 Music along with any ot
   - Fight : Replaces battle themes, forced fight tracks, and some minigame tracks
   - Cutscene : Replaces cutscene tracks and Dearly Beloved
   - Wild : Replaces any of the above
-4. When in doubt, choose `Wild`. For information on how the zip seed generator classifies the tracks, see [here](https://github.com/tommadness/KH2Randomizer/blob/master/Module/randomBGM.py)
+4. When in doubt, choose `Wild`. For information on how the zip seed generator classifies the tracks, see [here](https://github.com/tommadness/KH2Randomizer/blob/master/Module/cosmeticsmods/music.py)
 5. Run `Randomize.exe`. The program will immediately close and the content of your `mod.yml` will be changed.
 6. Apply the mod using OpenKH Mod Manager.
 7. Your music is now randomized!
