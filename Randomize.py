@@ -39,7 +39,7 @@ for root, dirs, files in os.walk(replaceDir):
         folder = folder.lower()
         if folder in newmusiclist:
             musictype = folder
-            break;
+            break
     else: #Stop scanning current path if the music isn't part of any type
         continue
     
